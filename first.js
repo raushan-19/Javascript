@@ -16,7 +16,6 @@ console.log(student.age);
 
 // let a=null;
 
-// let a;
 // console.log(a);
 
 // isFollow=false;
