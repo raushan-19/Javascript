@@ -46,3 +46,5 @@ console.log(student.age);
 // console.log("isfollow");
 // console.log("Hello World");
 // console.log("Raushan Kr. Tiwari")
+
+// alert("hello");  // one time message

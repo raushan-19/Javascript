@@ -78,7 +78,14 @@
                 // let cond2 = a === 9;  // false
                 // console.log("cond1 || cond2 = ",cond1 || cond2)  //true
 
-                let a = 8;
-                let b = 5;
+                // let a = 8;
+                // let b = 5;
 
-                console.log("!(8<5) = ",!(a === 8));  //false
+                // console.log("!(8<5) = ",!(a === 8));  //false
+
+// ternary operators
+
+            let age = 15;
+            
+            let result = age >= 18 ? "adult" : "not adult";
+            console.log(result);
