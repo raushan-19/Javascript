@@ -1,5 +1,5 @@
-// let str1 = "raushan";
-// console.log(str1.toUpperCase()); // output :- RAUSHAN
+let str1 = "raushan";
+console.log(str1.toUpperCase()); // output :- RAUSHAN
 
 // let str2 = "RAUSHAN";
 // console.log(str2.toLowerCase()); // output :- raushan
@@ -19,6 +19,6 @@
 // let str7 = "hello";
 // console.log(str7.replace("h","y"));  // output :- yello
 
-let str8 = "rahul";
-console.log(str8.charAt(3)); // output :- u
+// let str8 = "rahul";
+// console.log(str8.charAt(3)); // output :- u
 
