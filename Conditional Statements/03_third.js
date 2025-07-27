@@ -1,4 +1,4 @@
-// else-if statement
+// // else-if statement
 
 // let age = 56;
 

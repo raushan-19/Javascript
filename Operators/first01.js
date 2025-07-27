@@ -1,4 +1,4 @@
-//Arithmetic operators
+// //Arithmetic operators
 
                 // let a = 9;
                 //     b = 5;
@@ -18,7 +18,7 @@
                 // console.log("a % b =",mod);
                 // console.log("a ** b =",exponent);
 
-// Unary operators
+// // Unary operators
 
 //                 let a = 9;
 //                     b = 5;
@@ -38,7 +38,7 @@
 //                 --b;
 //                 console.log("--b =",b);
 
-// Assignment operators
+// // Assignment operators
 
                     // let a = 5;
                     // a **= 4; // a= ** 4
@@ -48,7 +48,7 @@
                     // b %= 3 // 4%3
                     // console.log(b)
 
-// Comparison Opearators
+// // Comparison Opearators
 
                 // let a = 5;
                 // let b = 2;
@@ -62,7 +62,7 @@
                 // console.log("c!==d", c!==d)  // output:- true       * it will also check the data type*
 
 
-// logical Opearators
+// // logical Opearators
 
                 // let a = 8;
                 // let b = 5;
@@ -83,7 +83,7 @@
 
                 // console.log("!(8<5) = ",!(a === 8));  //false
 
-// ternary operators
+// // ternary operators
 
             let age = 15;
             

@@ -1,21 +1,21 @@
-// print 1 to 5.
+// // print 1 to 5.
 
 // for(let i =1; i<=5; i++){
 //     console.log(i);
 // }
 
-// calculate sum of 1 to n.
+// // calculate sum of 1 to n.
 
-// let num = prompt("Enter your number : ");
-// let sum = 0;
+let num = prompt("Enter your number : ");
+let sum = 0;
 
-// for (let i = 1; i <= num; i++){
-//     sum = sum + i;
-// }
+for (let i = 1; i <= num; i++){
+    sum = sum + i;
+}
 
-// console.log("Sum = ",sum);
+console.log("Sum = ",sum);
  
-// while loop 
+// // while loop 
 
 // let i= 1;
 // while (i<=5){
@@ -23,7 +23,7 @@
 //     i=i+1;
 // }
 
-// Do While loop
+// // Do While loop
 
 // let i = 1;
 // do{
@@ -31,7 +31,7 @@
 //     i++;
 // } while (i<= 5);
 
-// for-of loop  (it is used for strings and arrays)
+// // for-of loop  (it is used for strings and arrays)
 
 // let str = "Raushan Tiwari";
 
@@ -44,13 +44,13 @@
 
 // for-in loop (it is used for objects and arrays)
 
-let student ={
-    name:"Raushan",
-    age:20,
-    course:"BCA",
-    roll:135
-};
+// let student ={
+//     name:"Raushan",
+//     age:20,
+//     course:"BCA",
+//     roll:135
+// };
 
-for (let i in student){
-    console.log("key =",i,"values =",student[i]);  // it will return keys in output 
-}
+// for (let i in student){
+//     console.log("key =",i,"values =",student[i]);  // it will return keys in output 
+// }
