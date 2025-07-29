@@ -1,0 +1,19 @@
+.heading{
+    color: blue;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+body{
+    background-color: pink;
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+#head1{
+    text-align: center;
+}
