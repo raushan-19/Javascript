@@ -13,7 +13,14 @@
 // let element = document.querySelector("p");      // returns first element
 // console.dir(element);
 
-let elementall = document.querySelectorAll("p");       //returns all elements
-console.dir(elementall);                      
+// let elementall = document.querySelectorAll("p");       //returns all elements
+// console.dir(elementall);                      
 
 // NOTE :- in query selector we can pass "id", "class", "tag"
+
+console.dir(document.body.childNodes[1]);
+// console.dir(document.head);
+// console.log(document.body);
+// console.log("hello");
+// window.console.log("hello2");
+// window.alert("raushan");

@@ -1,10 +1,10 @@
 // // strings
 
-let str = "Raushan";
+// let str = "Raushan";
 
-console.log(str.length);   // length = number of characters in a string
+// console.log(str.length);   // length = number of characters in a string
 
-console.log(str[0]);  // output:-R
+// console.log(str[0]);  // output:-R
 
 // // Template Literals
 
