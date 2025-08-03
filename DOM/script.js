@@ -4,7 +4,7 @@
 
 // let headings = document.getElementsByClassName("heading");
 // console.dir(headings);
-// console.log(headings)
+// console.log(headings);
 
 // let parahs = document.getElementsByTagName("p");
 // console.log(parahs);
@@ -18,9 +18,10 @@
 
 // NOTE :- in query selector we can pass "id", "class", "tag"
 
-console.dir(document.body.childNodes[1]);
+// console.dir(document.body.childNodes);
 // console.dir(document.head);
 // console.log(document.body);
 // console.log("hello");
 // window.console.log("hello2");
 // window.alert("raushan");
+console.dir(document.body.firstChild);
