@@ -20,12 +20,25 @@
 
 // Insert Elements
 
-let newBtn = document.createElement("button");      // Creating new button
-newBtn.innerText = "click me!";                     // Writing something in the button 
-console.log(newBtn);                                // Showing the button on console
+// let newBtn = document.createElement("button");      // Creating new button
+// newBtn.innerText = "click me!";                     // Writing something in the button 
+// console.log(newBtn);                                // Showing the button on console
 
-let div = document.querySelector("div");            // Accessing the div
-// div.append(newBtn);                              // Adding button at the end of the div
-// div.prepend(newBtn);                                // Adding button at the starting of the div
-div.before(newBtn);                                // Adding button at the before of the div
-// div.after(newBtn);                                // Adding button at the after of the div
+// let div = document.querySelector("div");            // Accessing the div
+// // div.append(newBtn);                              // Adding button at the end of the div
+// // div.prepend(newBtn);                                // Adding button at the starting of the div
+// div.before(newBtn);                                // Adding button before the div
+// // div.after(newBtn);                                // Adding button after  div
+
+// let newhead = document.createElement("h1");             // Creating new heading
+// newhead.innerText = "Heading";                          // Writing something in the heading
+// console.log(newhead);                                    // Showing the heading on console
+
+
+// let div = document.querySelector("div");                 // Accessing the div
+// div.before(newhead);                                     // Adding heading before the div
+
+// Delete Elements
+
+let paragraph = document.querySelector("p");
+paragraph.remove();
