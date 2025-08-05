@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+
+                <!-- inline event handling -->
+
+    <button onclick="alert('button was clicked');console.log('hello!');">   <!-- using "onclick" to adding some events on the page and console -->
+        Click me!
+    </button>
+    
+    <button ondblclick="alert('button has been clicked two times');console.log('hello again!');">   <!-- using "ondblclick" so that any eveny happens after clicking 2 times on the button -->
+        Click me 2 times
+    </button>
+
+    <div onmouseover="alert('You are in the div')">     <!-- using "onmouseover" so that when curson goes on div alert msg will pop-up. -->
+        This is box
+    </div>
+
+    <script src="script01.js"></script>
+</body>
+</html>
