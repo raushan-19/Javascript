@@ -27,12 +27,13 @@
 
 let btn1 = document.querySelector("#btn1");     // Accessing the button
 
-btn1.addEventListener("click",(evt) => {
-    console.log("button 1 was clicked");
-    console.log(evt);
-    console.log(evt.type);
+btn1.addEventListener("click",(evt) => {            // adding an event listener to the element using arrow function & putting event in the function & taking a variable
+
+    console.log("button 1 was clicked");             // it will print on the on the console when event happens
+    console.log(evt);                           // it will print the variable as an object
+    console.log(evt.type);                   // it will print the type of the variable
 });
 
-btn1.addEventListener("click",() => {
+btn1.addEventListener("click",() => {           // it will do the another work with the same event on the element
     alert("button 1 was clicked 😁👍");
 });
