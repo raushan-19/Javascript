@@ -1,0 +1,9 @@
+.dark{                  /* creating a class "dark" which we will access through JS*/
+    background-color: black;
+    color: white;
+}
+
+.light{                 /* creating a class "light" which we will access through JS*/
+    background-color: white;
+    color: black;
+}
