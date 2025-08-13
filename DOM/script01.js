@@ -25,3 +25,4 @@
 // window.console.log("hello2");
 // window.alert("raushan");
 console.dir(document.body.firstChild);
+console.dir(document.body.childNodes);
