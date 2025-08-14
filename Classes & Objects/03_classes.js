@@ -17,3 +17,4 @@ let fortuner = new toyotaCar() ;        // created an object "fortuner" by using
 fortuner.setBrand("fortuner legender");    // entering the value "fortuner legender" in the property "brandName"
 
 let lexus = new toyotaCar();
+lexus.setBrand("lexus legender");
