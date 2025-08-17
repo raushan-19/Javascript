@@ -9,9 +9,9 @@ const getPromise = () => {            // Define a function named getPromise whic
 let promise = getPromise();           // Call the getPromise function and store the returned Promise in variable "promise"
 
 promise.then( (res) => {              // Attach a 'then' handler to run when the Promise is resolved (fulfilled)
-    console.log("Promise fullfilled"); // Print "Promise fullfilled" if resolve() was called
+    console.log("Promise fullfilled",res); // Print "Promise fullfilled" if resolve() was called  & from "res" we can access original value of resolve
 });
 
 promise.catch( (err) => {             // Attach a 'catch' handler to run when the Promise is rejected
-    console.log("rejected");           // Print "rejected" if reject() was called
+    console.log("rejected",err);           // Print "rejected" if reject() was called & from "err" we can access original value of reject
 });
