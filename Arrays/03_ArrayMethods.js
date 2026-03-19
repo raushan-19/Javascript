@@ -84,3 +84,10 @@
 //     return res+cur;                             // returning the values by doing their sum
 // })
 // console.log(output);
+
+// // Delete() method
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8];
+// delete num[0];     // delete the value at index 0. (It will not affect the length of array).
+// console.log(num);
+// console.log(num.length);
